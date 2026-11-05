@@ -104,3 +104,9 @@ Cenários com movimento, atalhos para próxima missão e recompensas, efeitos de
 ## Edição 0.6 — aventura RPG
 
 Personagem controlável, corrida, colisões, NPCs, coleta de fragmentos e portais. Use WASD/setas e E, ou os botões no celular. Detalhes e limites em `docs/RPG.md`. Teste: `python3 tests/rpg_test.py`.
+
+## Edição 0.7 — gráficos detalhados
+
+Dois cenários originais em SVG pixel art: biblioteca com telhas, alvenaria, vegetação e rio; estação com cúpula, cidade distante e terminais. Sprites sombreados com quatro orientações, mochila, passos e portal detalhado. A geometria e as regras de progresso permanecem iguais. O script `tools/create_worlds.py` reproduz os cenários sem dependências externas.
+
+Validação: 13 testes de domínio, percurso RPG completo no Chromium, controles móveis, animações e movimento reduzido; ambos os SVG carregados sem erros e sem transbordamento em 320/390/768/1440 px. Capturas locais inspecionadas.
