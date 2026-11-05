@@ -19,3 +19,7 @@ Seis lições de amostra, feedback, progresso e loja de insígnias. Cada missão
 ## Assets
 
 Arte original do projeto. Pixelify Sans distribuída sob SIL OFL; licença em assets/OFL-PixelifySans.txt. Não há downloads de fontes ou chamadas de IA em runtime.
+
+## Mundo animado
+
+Exploradores, nuvens, água e efeitos de conquista com pausa persistente e movimento reduzido. O ! no mapa inicia a próxima missão; A abre recompensas. O módulo motion.js é obrigatório e deve permanecer na raiz. Veja docs/ANIMACOES.md para testes e limites.
