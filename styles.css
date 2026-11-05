@@ -45,3 +45,15 @@ body.motion-paused *,body.motion-paused *::before,body.motion-paused *::after{an
 .scene-action{border-radius:3px;box-shadow:0 3px 0 #604d37,0 0 0 2px #183e4e;background:#ffe49a;font-size:22px;width:44px;height:44px}
 .scene-tooltip{border-color:#e8c886}.map-card{box-shadow:0 8px 0 #073841,0 16px 35px #032d4555}
 .game-console{background:linear-gradient(135deg,#075965,#083d51)}
+
+/* Vivid reference palette: saturated scenery, dark surfaces for cream text. */
+body,body[data-world=tecnologia]{background:radial-gradient(ellipse at 80% 0%,#05a7a5 0%,transparent 60%),#087b83}
+header,footer{background:#044956;border-color:#ffd52b}
+.map-label,.map-caption,body[data-world=tecnologia] .map-label,body[data-world=tecnologia] .map-caption{background:#08636c;color:#fff4cc;border-color:#ffd52b}
+.map-card,body[data-world=tecnologia] .map-card{border-color:#ffda29}
+.game-console{background:linear-gradient(135deg,#076875,#044b60);color:#fff4cc}
+.game-console #game-quest{background:#08606a;border-color:#20c7b3;color:#ffec81}
+.scene-action{background:#ffda24;border-color:#fff49b;color:#043d4b}
+.scene-controls{background:#045366}.scene-controls button{background:#08636b;color:#fff3bd;border-color:#ffdc2d}
+.primary{background:#ffda24;border-color:#fff39a;color:#043d4b}.primary:hover{background:#ffe95c;color:#043d4b}
+.dpad button{background:#086773;border-color:#ffda24;color:#fff4cc}
